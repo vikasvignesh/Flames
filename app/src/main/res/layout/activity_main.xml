@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCE4EC"
+
+    tools:context="com.example.vikas.flame.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:background="#E1F5FE"
+        android:ems="10"
+        android:layout_below="@+id/eb"
+        android:layout_alignEnd="@+id/eb"
+        android:layout_marginTop="59dp"
+        android:id="@+id/eg" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:background="#E1F5FE"
+        android:layout_marginTop="49dp"
+        android:id="@+id/eb"
+        android:text=""
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:scaleType="center"
+        app:srcCompat="@mipmap/loo"
+        android:background="#FCE4EC"
+        android:id="@+id/b"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:layout_marginTop="86dp"
+        android:id="@+id/tv"
+        android:layout_alignTop="@+id/b"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Enter your name"
+        android:textColor="#F44336"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="21dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:text="Dream Partner Names"
+        android:textColor="#F44336"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/eb"
+        android:layout_alignStart="@+id/textView2" />
+
+</RelativeLayout>
